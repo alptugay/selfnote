@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#PAR-171] Honeypot smtp  için siem entegrasyonu yapılması</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('http://agile.labristeknoloji.com:8080/jira/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [PAR-171]&nbsp;<a href="http://agile.labristeknoloji.com:8080/jira/browse/PAR-171">Honeypot smtp  için siem entegrasyonu yapılması</a>
+            <span class="subText">
+               Created: 23/Oct/18                   &nbsp;Updated: 08/Nov/18
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Waiting for review</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="http://agile.labristeknoloji.com:8080/jira/secure/BrowseProject.jspa?id=10900">Pardus-Ahtapot</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Story
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Major
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="fatih.usta" id="word_reporter_fatih.usta" href="http://agile.labristeknoloji.com:8080/jira/secure/ViewProfile.jspa?name=fatih.usta">Fatih Usta</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="fatih.usta" id="word_assignee_fatih.usta" href="http://agile.labristeknoloji.com:8080/jira/secure/ViewProfile.jspa?name=fatih.usta">Fatih Usta</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-35107-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+                <tr>
+            <td bgcolor="#f0f0f0" width=20% valign=top>
+                <b>Attachments:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top">
+                                                            <img src="http://agile.labristeknoloji.com:8080/jira/images/icons/attach/image.gif" height="16" width="16" alt="PNG File" />
+                                        honeypot_smtp.png &nbsp;&nbsp;&nbsp;
+                            </td>
+        </tr>
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10200-35107-value" class="value" bgcolor="#ffffff" width="80%">SEC Sprint 64</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Story Points:</b></td>
+                <td id="customfield_10004-35107-value" class="value" bgcolor="#ffffff" width="80%">    -1
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Business Value:</b></td>
+                <td id="customfield_10005-35107-value" class="value" bgcolor="#ffffff" width="80%">    0
+</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Time in &quot;Waiting for Resolve&quot;:</b></td>
+                <td id="customfield_10703-35107-value" class="value" bgcolor="#ffffff" width="80%">            <span style="color:green">21 h, 51 m</span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Reviewer:</b></td>
+                <td id="customfield_11400-35107-value" class="value" bgcolor="#ffffff" width="80%">        <span class="tinylink">        <span class="user-hover" rel="alptugay" id="user_cf_alptugay">Alptugay Değirmencioğlu</span></span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Detected review error count:</b></td>
+                <td id="customfield_11401-35107-value" class="value" bgcolor="#ffffff" width="80%">    0
+</td>
+            </tr>
+                                    <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Planned Start:</b></td>
+                <td id="customfield_11100-35107-value" class="value" bgcolor="#ffffff" width="80%">            <span title="23/Oct/18 12:00"><time class="livestamp allow-future" datetime="2018-10-23T12:00+0300">23/Oct/18 12:00 PM</time></span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Planned End:</b></td>
+                <td id="customfield_11101-35107-value" class="value" bgcolor="#ffffff" width="80%">            <span title="23/Oct/18 12:00"><time class="livestamp allow-future" datetime="2018-10-23T12:00+0300">23/Oct/18 12:00 PM</time></span>
+    </td>
+            </tr>
+            </table>
+
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-77215"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="fatih.usta" id="word_commented_fatih.usta" href="http://agile.labristeknoloji.com:8080/jira/secure/ViewProfile.jspa?name=fatih.usta">Fatih Usta</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">08/Nov/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-77215"><td bgcolor="#ffffff">
+            <p>Alien Vault OSSIM üzerinde özel plugin yazmak için aşağıdaki adımlar takip edilir.</p>
+
+<p>Test iso : <a href="http://indir.pardus.org.tr/ISO/Ahtapot/pardus-ahtapot-ossim-kurumsal5-amd64.iso" class="external-link" rel="nofollow">http://indir.pardus.org.tr/ISO/Ahtapot/pardus-ahtapot-ossim-kurumsal5-amd64.iso</a><br/>
+Yapılandırmaya başlamadan önce ParserUtil.py dosyasına aşağıdaki python fonksiyonu eklenmiş olmalıdır.</p>
+
+<p>Date normalize function<br/>
+/usr/share/alienvault/ossim-agent/ParserUtil.py</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>def normalize_date_unix_miliseconds(unix_miliseconds_date):
+    unix_dt = int(unix_miliseconds_date)
+    dt = datetime.datetime.fromtimestamp(unix_dt / 1000)
+    return dt.strftime("%Y-%m-%d %H:%M:%S")
+</pre>
+</div></div>
+
+<p>1- Plugin için konfigurasyon dosyası oluşturulur.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>/etc/ossim/agent/plugins/honeypot_smtp.cfg
+</pre>
+</div></div>
+<p>Not:</p>
+
+<p>    a- Regex yazımı için regex101.com sitesi kullanılabilir.</p>
+
+<p>    b- Regex yazarken değeri boş gelen bir alan var ise null|değer şeklinde tanımlanmalıdır.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre># Alienvault plugin
+# Author: Fatih usta &lt;fatihusta@labrisnetworks.com&gt;
+# Plugin honeypot_smtp id:91116 version: 0.0.1
+# Last modification: 2018-11-08 13:00
+#
+# Plugin Selection Info:
+# honeypot_smtp:-
+#
+# END-HEADER
+#
+# Description:
+#   honeypot_smtp
+#
+#
+#
+#
+ 
+[DEFAULT]
+plugin_id=91116
+ 
+[config]
+type=detector
+enable=yes
+ 
+source=log
+location=/var/log/honeypot_smtp.log
+ 
+create_file=false
+ 
+process=
+start=no
+stop=no
+startup=
+shutdown=
+
+[translation]
+connected=1
+disconnected=2
+AUTHLOGIN=3
+AUTHLOGIN-FAIL=4
+AUTHLOGIN-USER=5
+AUTHLOGIN-PASS=6
+FROM=7
+TO=8
+DATA=9
+DATA-START=10
+DATA-END=11
+FINISH=12
+META=13
+START=14
+TLS=15
+
+#Nov  6 13:14:09 ahtapot honeypot-smtp {'session': '53878202-e323-11e8-8bb7-00163e38fe89', 'sourceIPv4Address': '10.0.3.254', 'command': '', 'success': True, 'type': 'connected', '@timestamp': 1541660149955, 'sourceTransportPort': 39436, 'destinationIPv4Address': '10.0.3.15', 'module': 'SMTP', 'destinationTransportPort': 25}
+
+
+[0001 - honeypot_smtp]
+event_type=event
+regexp="\w+\s+\d+\s\d+:\d+:\d+\s(?P&lt;device&gt;.*?)\s(?P&lt;sensor&gt;.*?)\s{'\w+':\s'.*?',\s'\w+':\s'(?P&lt;src_ip&gt;\d{1,3}.{1,3}.{1,3}.{1,3})',\s'\w+':\s(?P&lt;command&gt;'null'|'.*?'),\s'\w+':\s\w+,\s'\w+':\s'(?P&lt;type&gt;\w+)',\s'@\w+':\s(?P&lt;date&gt;\d+),\s'\w+':\s(?P&lt;src_port&gt;\d+),\s'\w+':\s'(?P&lt;dst_ip&gt;\d{1,3}.{1,3}.{1,3}.{1,3})',\s'\w+':\s'(?P&lt;module&gt;\w+)',\s'\w+':\s(?P&lt;dst_port&gt;\d+)}"
+date={normalize_date_unix_miliseconds($date)}
+device={$dst_ip}
+plugin_sid={translate($type)}
+src_ip={$src_ip}
+src_port={$src_port}
+dst_ip={$dst_ip}
+dst_port={$dst_port}
+protocol=tcp
+userdata1=Module: {$module}
+userdata2=Command: {$command}
+userdata3=Section: {$type}
+</pre>
+</div></div>
+<p>Plugin Sid Nedir?: Gelen logun veri tabanında karşılığı olan kaydın ID'sidir. Bu sid numarasına göre veri tabanı şekillendirilmeli ve config dosyasındaki translation kısmı buna göre düzenlenmelidir.<br/>
+Translate Bölümünün Mantığı: Gelen log içinde type'a göre plugin_sid numarasına otomatik çevirip veri tabanı ile eşleştirip alarm üreten bölümdür.</p>
+
+<p>2- Plugin için veritabanı dosyası oluştur ve ossim-db aracını kullanarak veritabanına dahil edilir.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>/usr/share/doc/ossim-mysql/contrib/plugins/honeypot_smtp.sql
+</pre>
+</div></div>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>-- honeypot_smtp
+-- plugin_id: 91116
+-- Fatih USTA &lt;fatihusta@labrisnetworks.com&gt;
+--
+SET @pluginid = 91116;
+SET @type = 1;
+SET @pluginname = 'honeypot_smtp';
+SET @desc = 'SMTP Honeypot System';
+SET @product_type = 11;
+SET @vendor = NULL;
+DELETE FROM plugin WHERE id = @pluginid;
+DELETE FROM plugin_sid where plugin_id = @pluginid;
+-- id    | type | name     | description                     | product_type | vendor
+INSERT IGNORE INTO plugin (id, type, name, description, product_type, vendor) VALUES (@pluginid, @type, @pluginname, @desc, @product_type, @vendor);
+-- plugin_id | sid        | class_id | reliability | priority | name                        | aro    | subcategory_id | category_id
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 1, 1, 1, 11, 19, 'honeypot_smtp: SMTP Connected');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 2, 1, 1, 11, 19, 'honeypot_smtp: SMTP Disconnected');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 3, 1, 1, 11, 19, 'honeypot_smtp: SMTP Authentication Detected');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 4, 1, 1, 11, 19, 'honeypot_smtp: SMTP Login Failed');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 5, 1, 1, 11, 19, 'honeypot_smtp: SMTP Login(USER)');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 6, 1, 1, 11, 19, 'honeypot_smtp: SMTP Login(PASS)');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 7, 1, 1, 11, 19, 'honeypot_smtp: SMTP FROM Address');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 8, 1, 1, 11, 19, 'honeypot_smtp: SMTP RCPT TO Address');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 9, 1, 1, 11, 19, 'honeypot_smtp: SMTP DATA(Message) Section');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 10, 1, 1, 11, 19, 'honeypot_smtp: SMTP DATA Start');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 11, 1, 1, 11, 19, 'honeypot_smtp: SMTP DATA End');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 12, 1, 1, 11, 19, 'honeypot_smtp: SMTP DATA Finish');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 13, 1, 1, 11, 19, 'honeypot_smtp: SMTP META Section');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 14, 1, 1, 11, 19, 'honeypot_smtp: SMTP Start Section');
+INSERT IGNORE INTO plugin_sid (plugin_id, sid, reliability,
+                               priority, subcategory_id,
+                               category_id, name) VALUES (@pluginid, 15, 1, 1, 11, 19, 'honeypot_smtp: SMTP STARTTLS Entered');
+
+</pre>
+</div></div>
+<p>Oluşturulan SQL Dosyası OSSIM DB import idilir</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>ossim-db &lt; /usr/share/doc/ossim-mysql/contrib/plugins/honeypot_smtp.sql
+</pre>
+</div></div>
+
+<p>3- Hem OSSIM üzerinde hemde gönderici üzerinde Syslog yapılandırmasını yapılır.</p>
+
+<p>    A- /etc/rsyslog.d/honeypot_smtp.conf</p>
+
+ <div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>#AlienVault OSSIM Server Rsyslog
+#Conf Start
+#if $fromhost-ip != '127.0.0.1' and $programname == "honeypot-smtp" then /var/log/honeypot_smtp.log
+if $fromhost-ip == '169.254.2.254' and $programname == "honeypot-smtp" then /var/log/honeypot_smtp.log
+&amp; ~
+#End of Conf
+</pre>
+</div></div>
+
+
+<p>      B - Client(Honeypoy) Rsyslog /etc/rsyslog.d/honeypot_smtp.conf</p>
+
+ <div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>#Only needs to be loaded once, like most rsyslog modules
+$ModLoad imfile
+ 
+#path to the file which you want to monitor
+$InputFileName /var/log/honeypot_smtp.log
+ 
+#The tag apache can be changed to whatever you'd like
+$InputFileTag honeypot-smtp:
+ 
+#the name of file within rsyslogs working directory
+$InputFileStateFile honeypot-smtp-stat
+ 
+#By default this is set to 'notice'
+$InputFileSeverity notice
+ 
+#This is necessary for file monitoring (no parameters)
+$InputRunFileMonitor
+ 
+#Set to how often the file should be polled. (default = 10s)
+$InputFilePollInterval 1
+ 
+# This is a template for Loggly. Substitute your Customer Token for TOKEN
+#$template LogglyFormatAccess,"%protocol-version% %HOSTNAME% %app-name% %msg%\n"
+$template LogglyFormat,"%HOSTNAME% %app-name% %msg%\n"
+#$template LogglyFormatAccess,"&lt;%pri%&gt;%protocol-version% %timestamp:::date-rfc3339% %HOSTNAME% %app-name% %procid% %msgid% [TOKEN@41058 tag=\"Access\"] %msg%\n"
+#$template LogglyFormatAccess,"&lt;%pri%&gt;%protocol-version% %timestamp:::date-rfc3339% %HOSTNAME% %app-name% %procid% %msgid% [TOKEN@41058 tag=\"apache\"] %msg%\n"
+# Make sure the template above is on one line.
+ 
+if $programname == 'honeypot-smtp' then @169.254.1.150:514;LogglyFormat
+ </pre>
+</div></div>
+
+<p>4- OSSIM Logrotate ayar dosyası oluşturulur.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>/etc/logrotate.d/honeypot_smtp
+</pre>
+</div></div>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>/var/log/honeypot_smtp.log {
+        weekly
+        missingok
+        rotate 7
+        compress
+        notifempty
+}
+</pre>
+</div></div>
+<p>5- Rsyslog servisi her iki cihazda da yeniden başlatılır.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>systemctl restart rsyslog
+</pre>
+</div></div>
+
+<p>6- "alienvault-setup" komutu ile Sensör ayarlarından plugin aktif edilir.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>alienvault-setup &gt; configure sensor &gt; configure data source plugins &gt; [x] honeypot_smtp
+</pre>
+</div></div>
+
+<p>7- Seçim yapıldıktan sonra geri ana ekrana dönülür ve seçim uygulanır.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>alienvault-setup &gt; Apply all changes
+</pre>
+</div></div>
+
+<p>8- OSSIM web arabirimiden kayıtlar izlenir.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>https://ossim_ip_address &gt; Analysis &gt; Security Events &gt; Real Time
+</pre>
+</div></div>
+<p>Not: Eğer loglar arayüzde görüntülenmiyor ise sistem reboot edilir ve tekrar gözlemlenir.</p>
+        </td></tr>
+            </table>
+Generated at Fri Nov 09 12:19:44 EET 2018 by Alptugay Değirmencioğlu using JIRA 6.1.4#6159-sha1:44eaedef2e4a625c6c7183698b2468d4719c20dc.
+
+</body>
+</html>
