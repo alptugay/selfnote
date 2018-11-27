@@ -1,0 +1,41 @@
+# OSSIM Üzerine Log Gonderim Ayarlarinin Yapilmasi
+
+----
+Log gonderici cihaz ustunde rsyslog yapilandirmasi.
+
+**conf pathi:**
+
+     /etc/rsyslog.d/gonderen_servis_adi.conf
+
+
+    #The tag apache can be changed to whatever you'd like
+    $InputFileTag honeypot-ftp:
+     
+    #the name of file within rsyslogs working directory
+    $InputFileStateFile honeypot-ftp-stat
+     
+    #By default this is set to 'notice'
+    $InputFileSeverity notice
+     
+    #This is necessary for file monitoring (no parameters)
+    $InputRunFileMonitor
+     
+    #Set to how often the file should be polled. (default = 10s)
+    $InputFilePollInterval 1
+     
+    # This is a template for Loggly. Substitute your Customer Token for TOKEN
+    #$template LogglyFormatAccess,"%protocol-version% %HOSTNAME% %app-name% %msg%\n"
+    $template LogglyFormat,"%HOSTNAME% %app-name% %msg%\n"
+    #$template LogglyFormatAccess,"<%pri%>%protocol-version% %timestamp:::date-rfc3339% %HOSTNAME% %app-name% %procid% %msgid% [TOKEN@41058 tag=\"Access\"] %msg%\n"
+    #$template LogglyFormatAccess,"<%pri%>%protocol-version% %timestamp:::date-rfc3339% %HOSTNAME% %app-name% %procid% %msgid% [TOKEN@41058 tag=\"apache\"] %msg%\n"
+    # Make sure the template above is on one line.
+     
+    if $programname == 'honeypot-ftp' then @169.254.1.150:514;LogglyFormat
+
+
+## Iptables icin ozel konfigurasyon
+
+    # Create an additional socket in postfix's chroot in order not to break
+    # mail logging when rsyslog is restarted.  If the directory is missing,
+    # rsyslog will silently skip creating the socket.
+    kern.* action(type="omfwd" Tag="iptables" target="192.168.0.142" port="514" protocol="udp")
