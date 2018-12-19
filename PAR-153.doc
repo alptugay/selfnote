@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#PAR-153] 4.1.5 (Siem) Cyphon kurulumu yapılması</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('http://agile.labristeknoloji.com:8080/jira/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [PAR-153]&nbsp;<a href="http://agile.labristeknoloji.com:8080/jira/browse/PAR-153">4.1.5 (Siem) Cyphon kurulumu yapılması</a>
+            <span class="subText">
+               Created: 08/Oct/18                   &nbsp;Updated: 03/Dec/18
+
+                                                    &nbsp;Resolved: 03/Dec/18
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Resolved</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="http://agile.labristeknoloji.com:8080/jira/secure/BrowseProject.jspa?id=10900">Pardus-Ahtapot</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  colspan="3" >
+            Story
+        </td>
+
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="alptugay" id="word_reporter_alptugay" href="http://agile.labristeknoloji.com:8080/jira/secure/ViewProfile.jspa?name=alptugay">Alptugay Değirmencioğlu</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="fatih.usta" id="word_assignee_fatih.usta" href="http://agile.labristeknoloji.com:8080/jira/secure/ViewProfile.jspa?name=fatih.usta">Fatih Usta</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Fixed
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-34906-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10200-34906-value" class="value" bgcolor="#ffffff" width="80%">SEC Sprint 64, SEC Sprint 65</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Time in &quot;Waiting for Resolve&quot;:</b></td>
+                <td id="customfield_10703-34906-value" class="value" bgcolor="#ffffff" width="80%">            <span style="color:red">278 h, 41 m</span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>RPM Full Name:</b></td>
+                <td id="customfield_10706-34906-value" class="value" bgcolor="#ffffff" width="80%">      -
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Reviewer:</b></td>
+                <td id="customfield_11400-34906-value" class="value" bgcolor="#ffffff" width="80%">        <span class="tinylink">        <span class="user-hover" rel="alptugay" id="user_cf_alptugay">Alptugay Değirmencioğlu</span></span>
+    </td>
+            </tr>
+            </table>
+
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-77420"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="fatih.usta" id="word_commented_fatih.usta" href="http://agile.labristeknoloji.com:8080/jira/secure/ViewProfile.jspa?name=fatih.usta">Fatih Usta</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">21/Nov/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-77420"><td bgcolor="#ffffff">
+            <p>Ahtapot Reposu ekli olmalı.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>deb [arch=amd64] http://depo.pardus.org.tr/ahtapot          stable         main
+</pre>
+</div></div>
+<p>Bağlı olduğu paketler kurulur.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>apt install default-jre logstash elasticsearch rabbitmq-server postgresql
+</pre>
+</div></div>
+
+<p>default-jre yerine oracle java da olabilir. PATH ayarları düzgün yapılmalı.<br/>
+JAVA PATH ayarı yapılır.<br/>
+cat /etc/environment </p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64"
+</pre>
+</div></div>
+
+<p>RabbitMQ server Port ve IP ayarı yapılır.<br/>
+/etc/rabbitmq/rabbitmq-env.conf</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>NODE_IP_ADDRESS=127.0.0.1
+NODE_PORT=5672
+NODENAME=rabbit1
+</pre>
+</div></div>
+
+<p>Servisler çalıştırılır.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>systemctl enable logstash
+systemctl enable elasticsearch
+systemctl start logstash
+systemctl start elasticsearch
+systemctl restart postgresql
+systemctl restart rabbitmq-server
+</pre>
+</div></div>
+
+<p>RabbitMQ'da cyphon için user, vhost ve exchange oluşturulur.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>rabbitmqctl add_vhost cyphon
+rabbitmqctl add_user cyphon_user ahtapot
+rabbitmqctl set_user_tags cyphon_user administrator
+rabbitmqctl set_permissions -p cyphon cyphon_user ".*" ".*" ".*"
+
+rabbitmqadmin declare exchange name=cyphon type=direct durable=true
+</pre>
+</div></div>
+
+<p>#Cyphon Kurulur.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>apt install cyphon
+</pre>
+</div></div>
+<p>/usr/src/app/cyphon/cyphon/settings/conf.py ve /usr/src/app/cyphon/cyphon/settings/default.py dosyaları düzenlenir. Aşağıdaki her alan her iki dosya içinde düzenlenir. </p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>HOST_SETTINGS = {
+    'ALLOWED_HOSTS': ['localhost', 'cyphon'],
+}
+
+
+SECRET_KEY = '393f6998b4414614886c98451b2e9324'
+'MAPBOX_ACCESS_TOKEN': 'pk.eyJ1IjoiZnVzdGEiLCJhIjoiY2pvbzhlM3lvMDF0MTNrb2NhMGZwd3RzMSJ9.l6d7eQKrmp1eE0GOtF-yYg',
+
+ELASTICSEARCH = {
+    'HOSTS': [
+        {
+            'host': os.getenv('ELASTICSEARCH_HOST', 'elasticsearch'),
+            'port': int(os.getenv('ELASTICSEARCH_PORT', '9200')),
+            'http_auth': os.getenv('ELASTICSEARCH_HTTP_AUTH'),
+            'use_ssl': bool(int(os.getenv('ELASTICSEARCH_USE_SSL', False))),
+        },
+    ],
+    # Note: the keyword arguments provided below are passed to the
+    # *Elasticsearch* constructor, and should not contain host-specific
+    # keyword arguments for individual connections, which are instead
+    # configured in the 'HOSTS' list above.
+    'KWARGS': {
+        'timeout': 30,
+    },
+    'INDEX': {
+        'index.mapping.ignore_malformed': True,
+        'number_of_shards': 1,
+    },
+}
+
+
+EMAIL = {
+    'DEFAULT_FROM': 'webmaster@localhost',
+    'HOST': 'localhost',  # e.g., 'smtp.gmail.com'
+    'HOST_USER': '',
+    'HOST_PASSWORD': '',
+    'PORT': 587,
+    'SUBJECT_PREFIX': '[Cyphon] ',
+    'USE_TLS': True,
+}
+
+
+POSTGRES = {
+    'NAME': os.getenv('POSTGRES_DB', 'cyphon'),
+    'USER': os.getenv('POSTGRES_USER', 'cyphon'),
+    'PASSWORD': os.getenv('POSTGRES_PASSWORD', 'cyphon'),
+    'HOST': os.getenv('POSTGRES_HOST', '127.0.0.1'),  # e.g., 'localhost'
+    'PORT': os.getenv('POSTGRES_PORT', '5432'),
+}
+
+RABBITMQ = {
+    'HOST': os.getenv('RABBITMQ_DEFAULT_HOST', '127.0.0.1'),
+    'VHOST': os.getenv('RABBITMQ_DEFAULT_VHOST', 'cyphon'),
+    'USERNAME': os.getenv('RABBITMQ_DEFAULT_USER', 'guest'),
+    'PASSWORD': os.getenv('RABBITMQ_DEFAULT_PASS', 'guest'),
+    'EXCHANGE': 'cyphon',
+    'DURABLE': True,
+}
+</pre>
+</div></div>
+<p>Not1: ALLOWED_HOSTS kısmındaki cyphon yazan yere sistemin kurulduğu cihazın dışarıya bakan interface'nin yani sisteme erişilecek IP adresi yazılır.</p>
+
+<p>Not2: SECRET_KEY Generate için aşağıdaki komut lullanılabilir.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>python -c 'import uuid;print str(uuid.uuid4()).replace("-","")'
+</pre>
+</div></div>
+<p>Not3: MAPBOX_ACCESS_TOKEN için üye olmak gerekiyor. Belli bir sayıda isteğe ücretsiz cevap veriyor. Bu olmadan harita çalışmıyor.<br/>
+<a href="https://www.mapbox.com/pricing/" class="external-link" rel="nofollow">https://www.mapbox.com/pricing/</a></p>
+
+<p>Postgresql DB create edilir.<br/>
+Not: Bu script postgresql'in lokal de çalıştırığı durum için çalışır. Eğer DB başka bir makinada ise bu script oraya alınmalı.<br/>
+Ayrıca Script DB var ise tekrar oluşturmaz.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>bash /usr/src/app/entrypoints/cyphon-utils.sh createdb &lt;POSTGRES_DB&gt; &lt;POSTGRES_USER&gt; &lt;POSTGRES_PASSWORD&gt; 
+</pre>
+</div></div>
+
+<p>servis confu da aşağıdaki gibidir.<br/>
+ cat /etc/cyphon/cyphon.conf </p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>#Cyphon Deamon Config File                                                                                                                                                    
+CYPHON_ENV=PROD #PROD: Production, TEST: Test, if is not match TEST or PROD running on development                                                                            
+BIND=127.0.0.1                                                                                                                                                                
+PORT=8000                                                                                                                                                                     
+WORKERS=3                                                                                                                                                                     
+LOGLEVEL=warning                                                                                                                                                              
+LOGFILE="-"                                                                                                                                                                   
+OPT= 
+</pre>
+</div></div>
+<p>Not: Eğer servis confundaki port ayarlarında değişiklik yapılır ise nginx conf'u da buna göre ayarlanmalı.</p>
+
+<p>Nginx Ayarları yapılır. SSL için sertifika yolları düzgün ayarlanmalı.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>cp /usr/share/doc/cyphon/sample-config/nginx/nginx.conf.ssl.ahtapot /etc/nginx/sites-available/cyphon.conf
+rm -f /etc/nginx/sites-enabled/default
+ln -s /etc/nginx/sites-available/cyphon.conf /etc/nginx/sites-enabled/default
+</pre>
+</div></div>
+<p>Servisler start edilir.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>systemctl enable cyphon
+systemctl start cyphon
+systemctl restart nginx
+</pre>
+</div></div>
+
+<p>DB üzerinde Cyphon Super User oluşturulur. Email adresi veya normal yazılabilir.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>bash /usr/src/app/entrypoints/cyphon-utils.sh createsuperuser &lt;CYPHON_USERNAME&gt; &lt;CYPHON_PASSWORD&gt;
+</pre>
+</div></div>
+        </td></tr>
+                <tr id="comment-header-77626"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="alptugay" id="word_commented_alptugay" href="http://agile.labristeknoloji.com:8080/jira/secure/ViewProfile.jspa?name=alptugay">Alptugay Değirmencioğlu</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">03/Dec/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-77626"><td bgcolor="#ffffff">
+            <p>-</p>
+        </td></tr>
+            </table>
+Generated at Wed Dec 19 12:23:42 EET 2018 by Alptugay Değirmencioğlu using JIRA 6.1.4#6159-sha1:44eaedef2e4a625c6c7183698b2468d4719c20dc.
+
+</body>
+</html>

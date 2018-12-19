@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#PAR-152] 4.1.4 (Siem) Faraday kurulumu yapılması</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('http://agile.labristeknoloji.com:8080/jira/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [PAR-152]&nbsp;<a href="http://agile.labristeknoloji.com:8080/jira/browse/PAR-152">4.1.4 (Siem) Faraday kurulumu yapılması</a>
+            <span class="subText">
+               Created: 08/Oct/18                   &nbsp;Updated: 03/Dec/18
+
+                                                    &nbsp;Resolved: 03/Dec/18
+                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Resolved</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="http://agile.labristeknoloji.com:8080/jira/secure/BrowseProject.jspa?id=10900">Pardus-Ahtapot</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Component/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix Version/s:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  colspan="3" >
+            Story
+        </td>
+
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                            <a class="user-hover" rel="alptugay" id="word_reporter_alptugay" href="http://agile.labristeknoloji.com:8080/jira/secure/ViewProfile.jspa?name=alptugay">Alptugay Değirmencioğlu</a>
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                            <a class="user-hover" rel="fatih.usta" id="word_assignee_fatih.usta" href="http://agile.labristeknoloji.com:8080/jira/secure/ViewProfile.jspa?name=fatih.usta">Fatih Usta</a>
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                            Fixed
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-34905-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original Estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Sprint:</b></td>
+                <td id="customfield_10200-34905-value" class="value" bgcolor="#ffffff" width="80%">SEC Sprint 64, SEC Sprint 65</td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Time in &quot;Waiting for Resolve&quot;:</b></td>
+                <td id="customfield_10703-34905-value" class="value" bgcolor="#ffffff" width="80%">            <span style="color:red">453 h, 45 m</span>
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>RPM Full Name:</b></td>
+                <td id="customfield_10706-34905-value" class="value" bgcolor="#ffffff" width="80%">      -
+  </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Reviewer:</b></td>
+                <td id="customfield_11400-34905-value" class="value" bgcolor="#ffffff" width="80%">        <span class="tinylink">        <span class="user-hover" rel="alptugay" id="user_cf_alptugay">Alptugay Değirmencioğlu</span></span>
+    </td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Paketler aşağıdaki linkte.<br/>
+<a href="https://drive.google.com/open?id=1wZFNqsfqVFypv_jZTF2tQuwucM4mT05V" class="external-link" rel="nofollow">https://drive.google.com/open?id=1wZFNqsfqVFypv_jZTF2tQuwucM4mT05V</a></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-77310"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="fatih.usta" id="word_commented_fatih.usta" href="http://agile.labristeknoloji.com:8080/jira/secure/ViewProfile.jspa?name=fatih.usta">Fatih Usta</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">13/Nov/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-77310"><td bgcolor="#ffffff">
+            <p>Faraday Server client mantığı ile çalışan bir penetrasyon testi uygulamasıdır.<br/>
+Birden fazla client anyı anda farklı penetrasyon testleri yapar.<br/>
+Client üzerinde yapılan testler server'a gönderilerek tek bir yerde analiz edilebilir.</p>
+
+
+<p>Paket kurulur. Eğer her client server aynı makinaya kurulacak ise "apt install faraday" demek yeterlidir.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>apt install faraday-server
+</pre>
+</div></div>
+
+<p>Kurduktan sonra aşağıdaki şekilde initial script çalıştırılır. Sonra servis start edilir.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>/usr/share/faraday/server/initial_db.sh --passwd ahtapot
+</pre>
+</div></div>
+
+<p>/root/.faraday/config/server.ini file içindeki bind kısmına 0.0.0.0 yazılır.<br/>
+port ayarları da yine bu dosya içerisinden yapılır.<br/>
+Not: initial_db.sh script'i çalıştığında bu dosyaya database section'u ekliyor. Ansbile ile bu durum kontrol edilerek değişiklik yapılmalı.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>[faraday_server]
+port = 5985
+bind_address = 0.0.0.0
+websocket_port = 9000
+secret_key = BMQjS6XLJFuiqAtQ6C4ZASlK0
+
+
+</pre>
+</div></div>
+
+<p>Servis ssl çalışacak ise <br/>
+server.ini dosyasında aşağıdaki alanlara sertifika ve key path'i gösterilir</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>[ssl]
+port = 6985
+certificate = /root/.faraday/config/pop3.public.key
+keyfile = /root/.faraday/config/pop3.private.key
+</pre>
+</div></div>
+<p> /usr/share/faraday/server/server-service-options.conf dosyasında --ssl parametresi eklenir.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>OPT="--nodeps --ssl"
+</pre>
+</div></div>
+
+<p>Servis başlatılır.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>systemctl enable faraday-server
+systemctl start faraday-server
+</pre>
+</div></div>
+
+<p><a href="http://ip_address:5985" class="external-link" rel="nofollow">http://ip_address:5985</a><br/>
+<a href="https://ip_address:6985" class="external-link" rel="nofollow">https://ip_address:6985</a></p>
+
+<p>#Client</p>
+
+<p>Client pc üzerinde aşağıdaki şekilde paket kurulur. Masaüstü ortamı olmalıdır.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>apt install faraday-client
+</pre>
+</div></div>
+
+<p>Sonra ilk sefer için komut satırından faraday komutu çağrılır.<br/>
+Daha sonrasında application menüsü kullalarak faraday client kullanılabilir. Eğer sunucu SSL çalışıyor ise --cert parametresi ile komut çalıştırılır.</p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>faraday --cert /path/to/cert/
+</pre>
+</div></div>
+
+<p>Cert ayarının kalıcı olması isteniyor ise aşağıdaki ayar dosyasına bu parametre eklenir.<br/>
+/usr/share/faraday/client/client-service-options.conf </p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>OPT="--nodeps --cert /path/to/cert"
+</pre>
+</div></div>
+
+
+<p>Diğer opsiyonlar için </p>
+<div class="preformatted panel" style="border-width: 1px;"><div class="preformattedContent panelContent">
+<pre>faraday --help
+</pre>
+</div></div>
+        </td></tr>
+                <tr id="comment-header-77620"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                        <a class="user-hover" rel="alptugay" id="word_commented_alptugay" href="http://agile.labristeknoloji.com:8080/jira/secure/ViewProfile.jspa?name=alptugay">Alptugay Değirmencioğlu</a>
+                                        <font size="-2">
+            [
+                <font color="#336699">03/Dec/18</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-77620"><td bgcolor="#ffffff">
+            <p>-</p>
+        </td></tr>
+            </table>
+Generated at Wed Dec 19 12:23:09 EET 2018 by Alptugay Değirmencioğlu using JIRA 6.1.4#6159-sha1:44eaedef2e4a625c6c7183698b2468d4719c20dc.
+
+</body>
+</html>
