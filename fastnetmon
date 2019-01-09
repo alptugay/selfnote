@@ -1,0 +1,93 @@
+[11:13:24] <fatihusta@labristeknoloji.com> 
+#/etc/fastnetmon/networks_list satır satır
+fastnetmon_network_list:
+    - 10.0.0.0/16
+    - 192.0.2.0/24
+
+#/etc/fastnetmon/networks_whitelist satır satır
+fastnetmon_network_white_list:
+    - 10.0.0.10
+    - 192.0.2.10
+    - 10.0.1.0/24
+
+#/etc/fastnetmon/fastnetmon.conf
+fastnetmon_interfaces: "eth1,eth2" #External Interfaces
+fastnetmon_enable_ban = on # on/off
+fastnetmon_ban_time = 1900 # Second
+fastnetmon_unban_only_if_attack_finished = on
+fastnetmon_enable_subnet_counters = off
+#Global Options
+fastnetmon_ban_details_records_count = 500
+fastnetmon_global_ban_for_pps = on
+fastnetmon_global_ban_for_bandwidth = on
+fastnetmon_global_ban_for_flows = off
+fastnetmon_global_threshold_pps = 20000
+fastnetmon_global_threshold_mbps = 1000
+fastnetmon_global_threshold_flows = 3500
+#Protocol Options 
+#These limits should be smaller than global pps/mbps limits
+fastnetmon_proto_threshold_tcp_mbps = 100000
+fastnetmon_proto_threshold_udp_mbps = 100000
+fastnetmon_proto_threshold_icmp_mbps = 100000
+fastnetmon_proto_threshold_tcp_pps = 100000
+fastnetmon_proto_threshold_udp_pps = 100000
+fastnetmon_proto_threshold_icmp_pps = 100000
+fastnetmon_proto_ban_for_tcp_bandwidth = off
+fastnetmon_proto_ban_for_udp_bandwidth = off
+fastnetmon_proto_ban_for_icmp_bandwidth = off
+fastnetmon_proto_ban_for_tcp_pps = off
+fastnetmon_proto_ban_for_udp_pps = off
+fastnetmon_proto_ban_for_icmp_pps = off
+#Group Specific Options
+fastnetmon_hostgroup:
+#    - MyHost: 
+#        fastnetmon_hostgroup_net: "10.10.10.221/32,10.10.10.222/32"
+#        fastnetmon_hostgroup_enable_ban: off
+#        fastnetmon_hostgroup_ban_for_pps: off
+#        fastnetmon_hostgroup_ban_for_bandwidth: off
+#        fastnetmon_hostgroup_ban_for_flows: off
+#        fastnetmon_hostgroup_threshold_pps: 20000
+#        fastnetmon_hostgroup_threshold_mbps: 1000
+#        fastnetmon_hostgroup_threshold_flows: 3500
+#    - MyHostN
+Other Options
+fastnetmon_notify_script_pass_details = on
+fastnetmon_collect_attack_pcap_dumps = off
+fastnetmon_process_pcap_attack_dumps_with_dpi = off
+#Client Options
+fastnetmon_client_max_ips_in_list = 7
+fastnetmon_client_sort_parameter = packets # packets, bytes, flows
+fastnetmon_client_check_period = 1
+
+
+
+#Group opsiyonu conf dosyasına aşağıdaki şekilde eklenmelidir.
+hostgroup = my_hosts:10.10.10.221/32,10.10.10.222/32
+
+# Configure this group
+my_hosts_enable_ban = off
+
+my_hosts_ban_for_pps = off
+my_hosts_ban_for_bandwidth = off
+my_hosts_ban_for_flows = off
+
+my_hosts_threshold_pps = 20000
+my_hosts_threshold_mbps = 1000
+my_hosts_threshold_flows = 3500
+
+
+
+
+#Group opsiyonu conf dosyasına aşağıdaki şekilde eklenmelidir.
+hostgroup = my_hosts:10.10.10.221/32,10.10.10.222/32
+
+# Configure this group
+my_hosts_enable_ban = off
+
+my_hosts_ban_for_pps = off
+my_hosts_ban_for_bandwidth = off
+my_hosts_ban_for_flows = off
+
+my_hosts_threshold_pps = 20000
+my_hosts_threshold_mbps = 1000
+my_hosts_threshold_flows = 3500
